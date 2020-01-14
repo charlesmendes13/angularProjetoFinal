@@ -8,7 +8,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { DashboardModule } from './dashboard';
 import { CalculadoraModule } from './calculadora';
 import { ConversorModule } from './conversor';
-// import { TarefasModule } from './tarefas';
+import { TarefasModule } from './tarefas';
 // import { JogoDaVelhaModule } from './jogo-da-velha';
 
 
@@ -23,6 +23,7 @@ import { ConversorModule } from './conversor';
     DashboardModule,
     CalculadoraModule,
     ConversorModule,
+    TarefasModule,
     AppRoutingModule
   ],
   providers: [],
